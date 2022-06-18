@@ -1,0 +1,24 @@
+#top_etc_contents .block-contents{
+	width: calc(100% - 30px);
+	transform: translateX(15px);
+}
+#top_etc_contents .input-checkbox,#top_etc_contents .portal-information-list-type{
+	display:none;
+}
+#top_etc_contents .contents-display-flex.result-list:nth-child(n+10){
+	display:none;
+}
+#top_etc_contents .portal-information-list-title{
+	width: 50%;
+}
+#top_etc_contents .portal-information-list-date{
+	width: 20%;
+}
+#top_etc_contents .portal-information-list-division{
+	width:30% ;
+}
+.InfoBlockLink{
+	display:block;
+	width:100%;
+	height:100%;
+}
